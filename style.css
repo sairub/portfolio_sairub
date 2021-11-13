@@ -12,7 +12,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg.jpg") top right no-repeat;
+  background: #040404 url("bg.jpg") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -217,10 +217,6 @@ h1, h2, h3, h4, h5, h6 {
 * Mobile Navigation
 */
 @media (max-width: 800px) {
-  .mobile-nav-toggle {
-    display: block;
-  }
-  
  .navbar {
   padding: 0;
   margin-top: -400px;
