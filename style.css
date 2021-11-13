@@ -125,12 +125,12 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 36px;
   }
   #header h2 {
-    font-size: 17px;
+    font-size: 20px;
     align: center;
-    line-height: 30px;
+    line-height: 25px;
   }
   #header .social-links {
-    margin-top: 12px;
+    margin-top: 10px;
   }
   #header .container {
     display: flex;
@@ -725,4 +725,12 @@ section .container {
     padding: 0px;
     color: #000000;
   }
+ .credits a {
+  color: #000000;
+  transition: 0.3s;
+}
+.credits a:hover {
+  color: #000000;
+}
+
 }
