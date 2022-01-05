@@ -126,7 +126,7 @@ a:focus {
 }
 
 .back-to-top:hover i {
-    color: #414141;
+    color: #111111;
 }
 
 
@@ -206,7 +206,7 @@ a:focus {
 
     .navbar-light .navbar-nav .nav-link:hover,
     .navbar-light .navbar-nav .nav-link.active {
-        color: #111111;
+        color: #dab3ff;
     }
 
     .navbar-light.nav-sticky .navbar-nav .nav-link:hover,
@@ -902,7 +902,7 @@ a:focus {
 }
 
 .footer .footer-social a:hover i {
-    color: #414141;
+    color: #111111;
 }
 
 .footer .copyright {
