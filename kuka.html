@@ -43,14 +43,13 @@
                   <a href="https://sairub.github.io/SairubNaaz/#portfolio"><button,>Back to Portfolio</button></a>
                 </div>
             </div>
-            <em><p>January 2022 - April 2022</p></em>
+            <em><p>January 2022 - December 2022</p></em>
             <ul>
-              <li>Implemented the code to collect dataset for different orientations of the KUKA iiwa7 manipulator with Blender</li>
-              <li>Trained synthetic data integrated with COCO dataset to get the 7 keypoints of the Manipulator </li>
-              <li>Tested on Real Data for analysis </li>
-              <li> Currently working on placing the mobile sensor in the dynamic environment to combine multiple robots and dynamically schedule the teaming for a task</li>
+              <li>Implemented the code to collect dataset for different orientations of the KUKA iiwa7 manipulator with Blender.</li>
+               <li>Built an auto-encoder network to process the KUKA dataset and produce 7 belief maps, one each for every joint (key points).</li>
+              <li>Combined the resultant 2D belief maps with the known camera intrinsics of the Toyota HSR robot and forward kinematics of KUKA 
+                using OpenCV PnP to get the relative pose of the base of KUKA w.r.t HSR frame.</li>
             </ul>
-
           </div>
 
         <div class="row gy-6" align = center>
@@ -59,28 +58,44 @@
                 <div class="swiper-wrapper align-items-center">
 
                   <div class="swiper-slide">
-                    <img src="assets/img/portfolio/portfolio-1.jpg" alt="Original train data">
-                    <p>Training Data from Blender</p>
+                    <img src="assets/img/portfolio/rob590/process.png" alt="process">
+                    <p>Process Followed</p>
                   </div>
 
                   <div class="swiper-slide">
-                    <img src="assets/img/portfolio/portfolio-2.jpg" alt="Train data with coco">
-                    <p>Training Data integrated with COCO dataset</p>
+                    <img src="assets/img/portfolio/rob590/math.png" alt="math">
+                    <p>Math for performing inverse kinematics on 7 DOF robot</p>
                   </div>
 
                   <div class="swiper-slide">
-                    <img src="assets/img/portfolio/portfolio-3.jpg" alt="Test data">
-                    <p>Test Data</p>
+                    <img src="assets/img/portfolio/rob590/apriltag.png" alt="apriltag">
+                    <p>April Tag detection via ROS</p>
+                  </div>
+                  
+                  <div class="swiper-slide">
+                    <img src="assets/img/portfolio/rob590/terminalout.png" alt="apriltag">
+                    <p>T matrices comparison from ROS + kinematics and network output</p>
                   </div>
 
                 </div>
-                <div class="swiper-pagination"></div>
-              </div>
+            <div class="swiper-pagination"></div>
+          </div>
             </div>
             <div class="col-lg-4" align = center>
-              <img src="assets/img/portfolio/portfolio-4.jpg" alt="Test data">
-              <div align = center>
-              <p>Analysis on Real Data</p></div>
+              <div class="portfolio-details-slider swiper">
+                <div class="swiper-wrapper align-items-center">
+
+                  <div class="swiper-slide">
+                    <img src="assets/img/portfolio/rob590/picture1.png" alt="p1">
+                    <p>real data results</p>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <img src="assets/img/portfolio/rob590/picture2.png" alt="p2">
+                    <p>real data results</p>
+                  </div>
+                </div>
+              
             </div>
           </div>
         </div>
